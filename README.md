@@ -31,7 +31,7 @@ Diferenças entre Expo CLI e o React Native CLI:
 - A grande diferença é que se você deseja integrar uma biblioteca nativa de terceiros ou estender a funcionalidade do aplicativo com código nativo, você simplismente não consegue fazer isso com o Expo. Um exemplo de funcionalidade que ainda não está disponível é o Bluetooth (até o momento que escrevo aqui). Se o seu aplicativo precisar dele, será necessário fazer um projeto sem o Expo.
 
 ## 📲 O aprendizado do aluno Fábio Mori
-### Indrodução da história.
+### Indrodução da história
 
 A aplicação do conteúdo ensinado neste curso da [Alura](https://www.alura.com.br/) para o aplicativo MatrizKIDS foi a criação de uma página onde os alunos avaliarão cada jogo criado com Scratch. Desta forma os alunos interagem com o conteúdo que criamos e assim podemos entender quais são os jogos que possuem mais alunos e as melhores avaliações pelos jogadores, nos direcionando para os próximos desenvolvimentos.
 
