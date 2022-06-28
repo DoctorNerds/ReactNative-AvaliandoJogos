@@ -16,6 +16,7 @@ As técnicas e tecnologias ensinadas pela [Alura](https://www.alura.com.br/) no 
 - React Native CLI
 - CTS (Compatibility Teste Suite)
 - CLI (Command-Line Interface)
+- DOM (Document Object Model)
 
 Pré requisitos para começar este trabalho com React Native na sua máquina:
 - Instalar o Node, o JDK, o Android Studio, as SDKs, o Xcode (para iOS). Também é necessário criar o projeto e o emulador.
@@ -29,9 +30,10 @@ Como fazer a migração do Expo para o React Native CLI:
 Diferenças entre Expo CLI e o React Native CLI:
 - A grande diferença é que se você deseja integrar uma biblioteca nativa de terceiros ou estender a funcionalidade do aplicativo com código nativo, você simplismente não consegue fazer isso com o Expo. Um exemplo de funcionalidade que ainda não está disponível é o Bluetooth (até o momento que escrevo aqui). Se o seu aplicativo precisar dele, será necessário fazer um projeto sem o Expo.
 
-
 ## 📲 O aprendizado do aluno Fábio Mori
 ### Indrodução da história.
+
+A aplicação do conteúdo ensinado neste curso da [Alura](https://www.alura.com.br/) para o aplicativo MatrizKIDS foi a criação de uma página onde os alunos avaliarão cada jogo criado com Scratch. Desta forma os alunos interagem com o conteúdo que criamos e assim podemos entender quais são os jogos que possuem mais alunos e as melhores avaliações pelos jogadores, nos direcionando para os próximos desenvolvimentos.
 
 ### Tags e comandos React Native
 
@@ -59,7 +61,8 @@ Diferenças entre Expo CLI e o React Native CLI:
       - ``useMemo``: semelhante ao ``useCallback``, mas ao invés de função, armazena um valor.
       - ``useRef``: para acessar propriedades de componentes filhos.
       - ``useImperativeHandle``: para personalizar o valor da instância que será acessível aos componentes "pais".
-      - ``useLayoutEffect
+      - ``useLayoutEffect``: semelhante ao ``useEffect``, porém é disparado na mesma fase que o ``componentDidMount`` e ``componentDidUpdate``.
+      - ``useDebugValue``: usado para definir um "label" em hooks customizados que irá aparecer somente em ferramenta de debug.
 - React Native CLI 
    - É a interface de linha de comando do React Native puro, é como um programa, mas no terminal. Usando CLI não teremos as mesmas facilidades do Expo, como ambiente simplificado, pois teremos que gerar os arquivos nativos direto na nossa máquina.
    - Diferentemente do Expo CLI, aqui temos nos arquivos gerados as pastas android e ios, que possuem os códigos nativos
