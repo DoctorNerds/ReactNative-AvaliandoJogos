@@ -6,7 +6,7 @@ Essa é a aplicação do Fábio Mori após concluir o projeto do curso **Utiliza
 
 Neste projeto foi aplicado todo aprendizado para fazer uma tela de avaliação dos jogos criados com o Scratch, para o aplicativo do MatrizKIDS, uma edtech que ensina crianças a programarem através do Scratch.
 
-**********COLOCAR PRINTS AQUI!!!!!**********
+|<img src="https://user-images.githubusercontent.com/101336111/176433209-f48c2ef9-cdb7-4387-bf69-596fb4f4aaea.png" width="300" height="600">|<img src="https://user-images.githubusercontent.com/101336111/176433221-55babb81-2310-4070-b49e-04817fc5b60a.png" width="300" height="600">|<img src="https://user-images.githubusercontent.com/101336111/176433230-9d190ab4-582d-4eda-b1b5-aed946676bd4.png" width="300" height="600">|
 
 ## 🧑‍💻 Técnicas e Tecnologias
 
