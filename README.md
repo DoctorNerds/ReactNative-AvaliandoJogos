@@ -18,7 +18,7 @@ As técnicas e tecnologias ensinadas pela [Alura](https://www.alura.com.br/) no 
 - CLI (Command-Line Interface)
 - DOM (Document Object Model)
 
-Pré requisitos para começar este trabalho com React Native na sua máquina:
+Pré-requisitos para começar este trabalho com React Native na sua máquina:
 - Instalar o Node, o JDK, o Android Studio, as SDKs, o Xcode (para iOS). Também é necessário criar o projeto e o emulador.
 
 Como fazer a migração do Expo para o React Native CLI:
@@ -28,10 +28,10 @@ Como fazer a migração do Expo para o React Native CLI:
 - Quando todo processo terminar, você já terá sua aplicação migrada para o React-Native.
 
 Diferenças entre Expo CLI e o React Native CLI:
-- A grande diferença é que se você deseja integrar uma biblioteca nativa de terceiros ou estender a funcionalidade do aplicativo com código nativo, você simplismente não consegue fazer isso com o Expo. Um exemplo de funcionalidade que ainda não está disponível é o Bluetooth (até o momento que escrevo aqui). Se o seu aplicativo precisar dele, será necessário fazer um projeto sem o Expo.
+- A grande diferença é que se você deseja integrar uma biblioteca nativa de terceiros ou estender a funcionalidade do aplicativo com código nativo, você simplesmente não consegue fazer isso com o Expo. Um exemplo de funcionalidade que ainda não está disponível é o Bluetooth (até o momento que escrevo aqui). Se o seu aplicativo precisar dele, será necessário fazer um projeto sem o Expo.
 
 ## 📲 O aprendizado do aluno Fábio Mori
-### Indrodução da história
+### Introdução da história
 
 A aplicação do conteúdo ensinado neste curso da [Alura](https://www.alura.com.br/) para o aplicativo MatrizKIDS foi a criação de uma página onde os alunos avaliarão cada jogo criado com Scratch. Desta forma os alunos interagem com o conteúdo que criamos e assim podemos entender quais são os jogos que possuem mais alunos e as melhores avaliações pelos jogadores, nos direcionando para os próximos desenvolvimentos.
 
@@ -69,7 +69,7 @@ A aplicação do conteúdo ensinado neste curso da [Alura](https://www.alura.com
 - Simulador Android Studio:
    - Clique em AVD Manager
    - Crie o seu próprio emulador
-- CTS (Compatibility Teste Suite): é um conjunto de testes gratuítos de nível comercial, disponíveis para download como binário ou como fonte Android Open Source Project (AOSP). O CTS representa o mecanismo de compatibilidade.
+- CTS (Compatibility Teste Suite): é um conjunto de testes gratuitos de nível comercial, disponíveis para download como binário ou como fonte Android Open Source Project (AOSP). O CTS representa o mecanismo de compatibilidade.
 - CLI, sigla em inglês que significa *command-line interface* ou interface de linha de comando: é uma forma de processar comandos que serão enviados para um programa de computador na forma de linhas de texto.
 - Mocks: Não é uma boa prática deixar os textos nos códigos dos componentes criados, o ideal é deixarmos os textos salvos em outro lugar específico, isso facilita muito o entendimento e também ajuda em casos onde o texto tenha que passar por uma revisão ou tradução, já que todos estarão concentrados no mesmo lugar e não será necessário entender o código para encontrá-los em seus locais. Por isso utilizamos os mocks para salvá-los, simulando uma API para receber dados como se fosse um serviço externo.
 - Estados: são variáveis que estão dentro do nosso componente que quando atualizamos ela, automaticamente onde ela está sendo utilizada vai ser atualizada também. Para fazer isso, precisamos de um método específico para atualizar essa variável, que é o ``set.state``.
@@ -97,8 +97,8 @@ A aplicação do conteúdo ensinado neste curso da [Alura](https://www.alura.com
    - Importante
       - A função ``render()`` não modifica o state, ou seja, ela não interage diretamente com o browser, para isso, deve-se usar o ``componentDidMount()``
       - ``setState()`` enfileira mudanças ao state do componente e diz ao React que este componente e seus componentes filhos precisam ser re-renderizados com a atualização do state. 
-- DOM (Document Object Model): é uma interface de programação que os navegadores utilizam para representar páginas na web. Ele possibilita a manipulação e modificação de elementos de um documento web ao conectar as linguagens de programação à página em questão. Ele é neutro em termos de linguagem, então pode ser executado com qualuer uma delas, ainda que seja mais popular utilizá-lo com o Java Script.
-- Classes: são receitas de um objeto, onde tem características e comportamentos, permitindo assim armazenar propriedades e métodos dentro dela. Ela é a receita, a especificação do objeto, definí-la implica em especificar os seus atributos (dados) e seus métodos (funções).
+- DOM (Document Object Model): é uma interface de programação que os navegadores utilizam para representar páginas na web. Ele possibilita a manipulação e modificação de elementos de um documento web ao conectar as linguagens de programação à página em questão. Ele é neutro em termos de linguagem, então pode ser executado com qualquer uma delas, ainda que seja mais popular utilizá-lo com o Java Script.
+- Classes: são receitas de um objeto, onde tem características e comportamentos, permitindo assim armazenar propriedades e métodos dentro dela. Ela é a receita, a especificação do objeto, defini-la implica em especificar os seus atributos (dados) e seus métodos (funções).
 - Objetos: possuem características próprias, denotadas por atributos, além de funções (comportamentos específicos), dados por métodos.
 
 
